@@ -33,7 +33,7 @@ public	static List<String> Marital_Status= new ArrayList<String>();
  static ExtentTest testcase;
 	public  static  void Read() throws IOException {
 		// TODO Auto-generated method stub
-		File file = new File("C:\\Users\\villu\\Documents\\Book12.xlsx");
+		File file = new File("Book12.xlsx");
 		FileInputStream excel= new FileInputStream(file);
 		XSSFWorkbook workbook= new XSSFWorkbook(excel);
 		XSSFSheet sheet= workbook.getSheetAt(0);
