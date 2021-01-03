@@ -36,8 +36,8 @@ public	static List<String> Marital_Status= new ArrayList<String>();
 		File file = new File("Book12.xlsx");
 		FileInputStream excel= new FileInputStream(file);
 		XSSFWorkbook workbook= new XSSFWorkbook(excel);
-		XSSFSheet sheet= workbook.getSheetAt(0);
-		Iterator<Row> rowIterator=sheet.iterator();
+		XSSFSheet sheets= workbook.getSheetAt(0);
+		Iterator<Row> rowIterator=sheets.iterator();
 		while(rowIterator.hasNext()) {
 			Row rowvalue=rowIterator.next();
 			Iterator<Cell> columnIterator=rowvalue.cellIterator();
