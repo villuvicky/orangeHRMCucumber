@@ -33,7 +33,7 @@ public class Add_User {
 	@Then("user clicks on save button")
 	public void user_clicks_on_save_button() {
 		PageFactory.initElements(Login.driver, AddUser_Objects.class);
-		TestCases.Login.logger.info("User  clicks on Save button");
+		TestCases.Login.logger.info("User  click on Save button");
 	}
 	@Then("user gets success message")
 	public void user_gets_success_message() {
