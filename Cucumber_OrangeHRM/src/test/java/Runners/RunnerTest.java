@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "Features/OrangeHRMFeature.feature",glue = {"TestCases","TestData"})
-public class RunnerClass {
+public class RunnerTest {
 	 
 	
 }

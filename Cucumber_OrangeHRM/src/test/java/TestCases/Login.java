@@ -41,7 +41,7 @@ public class Login {
 		property_file();
 		String location=properties.getProperty("location");
 		url=properties.getProperty("URL");
-		System.setProperty("webdriver.chrome.driver", location);
+		//System.setProperty("webdriver.chrome.driver", location);
 		driver= new ChromeDriver();
 		driver.manage().window().maximize();
 
